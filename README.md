@@ -1,0 +1,2 @@
+# design_patterns_otavio_miranda_typescript
+Studing Principles and Patterns of Software Engineering
