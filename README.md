@@ -1,16 +1,29 @@
 # 🧠 Advanced JavaScript & TypeScript – Software Engineering & Design Patterns
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![License](https://img.shields.io/badge/license-Educational-blue?style=for-the-badge)
+<div align="center">
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+  </a>
+  <a href="https://nodejs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js Badge">
+  </a>
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/license-Educational-blue?style=for-the-badge" alt="License Badge">
+  </a>
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/Made%20with%20❤️-JavaScript-red?style=for-the-badge" alt="Made With Love Badge">
+  </a>
+</div>
 
 ---
 
 Welcome to my repository dedicated to advanced **JavaScript** and **TypeScript** studies, with a strong emphasis on **Software Engineering principles**, **Design Patterns**, and **Best Practices**.  
 This project serves as both a **knowledge base** and a **practical lab** for applying advanced programming concepts inspired by the course:
 
-🎓 **[Modern JavaScript Course: From Beginner to Advanced (by Luíz Otávio Miranda)](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)**
+🎓 **<a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/" target="_blank">Modern JavaScript Course: From Beginner to Advanced (by Luíz Otávio Miranda)</a>**
 
 ---
 
@@ -68,9 +81,9 @@ The code examples and exercises here aim to **bridge the gap between theory and 
 
 **Luíz Otávio Miranda** is a renowned software developer and instructor specializing in modern JavaScript and TypeScript education.
 
-- 🔗 **LinkedIn:** [https://www.linkedin.com/in/otaviomirandabr/](https://www.linkedin.com/in/otaviomirandabr/)
-- 🎓 **Course Link:** [Modern JavaScript from Beginner to Advanced](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
-- 📜 **Certificate:** [View on Google Drive](https://drive.google.com/file/d/1ti812jMIG8_c1rpA4CtUQ0E6P749ZKfm/view?usp=sharing)
+- 🔗 **<a href="https://www.linkedin.com/in/otaviomirandabr/" target="_blank">LinkedIn</a>**
+- 🎓 **<a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/" target="_blank">Course Link: Modern JavaScript from Beginner to Advanced</a>**
+- 📜 **<a href="https://drive.google.com/file/d/1ti812jMIG8_c1rpA4CtUQ0E6P749ZKfm/view?usp=sharing" target="_blank">Certificate (Google Drive)</a>**
 
 ---
 
