@@ -13,6 +13,7 @@ cart.addItem(new Product("Item 2", 20));
 
 console.log("CART: ", cart.items);
 console.log("Total:", cart.total());
+order.checkout();
 
 cart.removeItem(0);
 console.log("CART: ", cart.items);
@@ -28,6 +29,5 @@ cart2.addItem(new Product("Item 2", 15.99));
 console.log("CART2: ", cart2.items);
 console.log("CART2 STATUS:", order.orderStatus);
 
-order.checkout();
 console.log("CART2: ", cart2.items);
 console.log("CART2 STATUS:", order.orderStatus);
