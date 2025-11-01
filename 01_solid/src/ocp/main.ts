@@ -17,7 +17,7 @@ cart.addItem(new Product("Item 1", 10.59));
 cart.addItem(new Product("Item 2", 20));
 console.log("CART: ", cart.items);
 console.log("Total:", cart.totalWithDiscount());
-console.log("CART CHECKOUT:", order.checkout());
+order.checkout();
 
 cart.removeItem(0);
 console.log("CART: ", cart.items);

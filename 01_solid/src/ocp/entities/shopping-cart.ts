@@ -1,13 +1,12 @@
-import { Discount, NoDiscount } from "./discount";
+import { Discount, PercentageDiscount } from "./discount";
 import { CartItem } from "./interfaces/cart-item";
 
 export class ShoppingCart {
   private readonly _items: CartItem[] = [];
-  private readonly discount: Discount;
 
-  constructor(discount?: Discount) {
-    this.discount = discount ?? new NoDiscount();
-  }
+  constructor(
+    private readonly discount: Discount = new PercentageDiscount(0)
+  ) {}
 
   addItem(item: CartItem): void {
     this._items.push(item);
