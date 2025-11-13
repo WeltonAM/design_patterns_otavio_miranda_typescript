@@ -1,0 +1,41 @@
+import { Discount, PercentageDiscount } from "./discount";
+import { CartItem } from "./interfaces/cart-item";
+import { ShoppingCartProtocol } from "./interfaces/shopping-cart-protocol";
+
+export class ShoppingCart implements ShoppingCartProtocol {
+  private readonly _items: CartItem[] = [];
+
+  constructor(
+    private readonly discount: Discount = new PercentageDiscount(0)
+  ) {}
+
+  addItem(item: CartItem): void {
+    this._items.push(item);
+  }
+
+  removeItem(index: number): void {
+    this._items.splice(index, 1);
+  }
+
+  get items(): Readonly<CartItem[]> {
+    return this._items;
+  }
+
+  total(): number {
+    return Number(
+      this._items.reduce((total, item) => total + item.price, 0).toFixed(2)
+    );
+  }
+
+  totalWithDiscount(): number {
+    return Number(this.discount.calculate(this.total()).toFixed(2));
+  }
+
+  isEmpty(): boolean {
+    return this._items.length === 0;
+  }
+
+  clear(): void {
+    this._items.length = 0;
+  }
+}
